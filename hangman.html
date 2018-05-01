@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+        <link rel="icon" type="image/png" sizes="32x32" href="favicon-32x32.png">
+        <link rel="icon" type="image/png" sizes="16x16" href="favicon-16x16.png">
+        <link rel="manifest" href="/site.webmanifest">
+        <link rel="mask-icon" href="/safari-pinned-tab.svg" color="#5bbad5">
+        <meta name="msapplication-TileColor" content="#da532c">
+        <meta name="theme-color" content="#ffffff">
+        
+        <link rel="manifest" href="manifest.json">
+        
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Hangman</title>
+        <link rel="stylesheet" href="all.css">
+        <link rel="stylesheet" href="hangman.css">
+        <link href="https://fonts.googleapis.com/css?family=Cabin+Sketch|Magra" rel="stylesheet">
+        
+    </head>
+    <body>
+        
+        <header>
+            
+            <img src="paint3.jpg" alt="logo" width="202" height="178">
+        
+        </header>
+        
+        <nav>
+            
+            <ul class="topnav">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="Education.html">Education</a></li>
+                <li><a href="Contact.html">Contact</a></li>
+                <li><a href="Games.html">Skills</a></li> 
+            </ul>
+
+        </nav>
+        
+        
+        <div style="padding:0 16px;">
+            <img id="hmImg" src="Hangman-0.png" alt="hang" class="TextWrap"/>
+            <br>
+            <h2>Hangman Game</h2>
+            <br>
+            <br>
+            <noscript>To play hangman JavaScript needs to be enabled <br> <br></noscript>
+            <form id="hangman">
+                <!--placeholder is when is disappears when text is entered, if value was used the user would have to delete that text
+                to enter their guess-->
+                <input type="text" maxlength="1" minlength="1" name="letter" id="letter" placeholder="Guess a letter" />
+                <br>
+                <br>
+                <input id="guess" name="guess" type="submit" value="Guess" />
+                <button id="restart" name="restart" type="button">Restart</button>
+                <button id="hint" name="hint" type="button" onclick="hintFunction()">Hint</button>
+            </form>
+            <br>
+            <br>
+            <ul id="letters"></ul>
+            <br>
+            <br>
+            <p id="man"></p>
+            <br>
+            <p id="output" class="output"></p>
+            <br>
+            <span id="currentletter"></span>
+            
+            
+            
+            
+            <script src="hangman.js"></script>
+            
+        </div>
+        <footer>
+            <br>
+            <br>
+            <br>
+            Click <a href="https://uk.linkedin.com/">here</a> to view my LinkedIn Profile
+            <br>
+            <br>
+            My email address: jessica@liveland.co.uk
+
+        </footer>
+    </body>
+
+</html>

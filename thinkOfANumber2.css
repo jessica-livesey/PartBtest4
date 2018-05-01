@@ -1,0 +1,25 @@
+.lastResult {
+    /*color: white;*/
+    padding: 3px;
+}
+
+label, legend {
+    color: #c48b9f;
+}
+input[type="text"], textarea {
+    background-color: #bbdefb;
+}
+.field_set{
+    border-color: #1565c0;
+    width: 50%;
+    max-width: 800px;
+    min-width: 480px;
+}
+
+.field_set2{
+    border-color: #1565c0;
+    width: 50%;
+    max-width: 800px;
+    min-width: 480px;
+}
+
