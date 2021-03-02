@@ -1,0 +1,28 @@
+{
+  "cakes": [
+    {
+      "Author": "Victoria Hargreaves",
+      "Title": "Chocolate Cupcake",
+      "Synopsis": "Created a batch of Chocolate Cupcakes, it was one of the best recipes I have ever used, highly recommend. Recipe can be found at www.choccakes.co.uk.",
+      "CoverImage": "chocolatecupcake"
+    },
+    {
+      "Author": "Alice Clark",
+      "Title": "Vanilla Cupcake",
+      "Synopsis": "The Icing that has been piped on this Vanilla Cupcake, was a recipe I used from www.finchbakery.com website, I also use the equipment they sell including piping nozzles to pipe the icing onto the cupcake and the equipment is all high quality and the best I have ever used.",
+      "CoverImage": "vanillacupcake"
+    },
+    {
+      "Author": "John Smith",
+      "Title": "Chocolate Fudge Cake",
+      "Synopsis": "Bought the Betty Crocker Chocolate Fudge Cake Packet Mix and Ready Made icing, great for a quick bake and tastes delicious, can be found in most major supermarkets",
+      "CoverImage": "chocolatefudgecake"
+    },
+    {
+      "Author": "Jessica Jones",
+      "Title": "Victoria Sponge",
+      "Synopsis": "Simple but delicious. This Victoria sponge cake has been created using the recipe from www.isabakes.com and it is highly recommended for a simple bake.",
+      "CoverImage": "victoriasponge"
+    }
+  ]
+}
